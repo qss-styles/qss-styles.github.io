@@ -10,6 +10,7 @@
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 5.6.2, nicepage.com">
+    <link rel="icon" href="images/favicon3.png">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     
@@ -58,7 +59,7 @@
       </div></header>
     <section class="u-clearfix u-grey-5 u-section-1" id="sec-3f7a">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-container-style u-group u-radius-28 u-shape-round u-white u-group-1" data-animation-name="customAnimationIn" data-animation-duration="750" data-animation-direction="">
+        <div class="u-container-style u-expanded-width u-group u-radius-28 u-shape-round u-white u-group-1" data-animation-name="customAnimationIn" data-animation-duration="750" data-animation-direction="">
           <div class="u-container-layout u-container-layout-1">
             <h2 class="u-align-center u-custom-font u-font-montserrat u-text u-text-default u-text-grey-70 u-text-1" data-lang-ru="About the project">MAC OS THEME</h2>
             <img class="u-image u-image-contain u-image-default u-image-1" src="images/jopa.png" alt="" data-image-width="487" data-image-height="385">
@@ -93,437 +94,442 @@
                 </div>
               </div>
             </div>
-            <div class="u-container-style u-grey-5 u-group u-shape-rectangle u-group-2">
+            <div class="u-container-style u-grey-10 u-group u-shape-rectangle u-group-2">
               <div class="u-container-layout u-container-layout-4">
-                <ol class="u-custom-font u-font-montserrat u-spacing-3 u-text u-text-default u-text-4">
-                  <li>QMainWindow {<br>
+                <h4 class="u-custom-font u-font-montserrat u-text u-text-4">QSS</h4>
+              </div>
+            </div>
+            <div class="u-container-style u-grey-5 u-group u-shape-rectangle u-group-3">
+              <div class="u-container-layout u-container-layout-5">
+                <ol class="u-custom-font u-font-montserrat u-spacing-3 u-text u-text-default u-text-5">
+                  <li style="padding-left: 10px;">QMainWindow {<br>
                   </li>
-                  <li> background-color:#ececec; </li>
-                  <li>} </li>
-                  <li>QPushButton, QToolButton, QCommandLinkButton{ </li>
-                  <li> padding: 0 5px 0 5px; </li>
-                  <li> border-style: solid; </li>
-                  <li style=""> border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-right-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-bottom-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-left-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-width: 2px; </li>
-                  <li> border-radius: 8px; </li>
-                  <li> color: #616161; </li>
-                  <li> font-weight: bold; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #fbfdfd, stop:0.5 #ffffff, stop:1 #fbfdfd); </li>
-                  <li>} </li>
-                  <li>QPushButton::default, QToolButton::default, QCommandLinkButton::default{ </li>
-                  <li> border: 2px solid transparent; </li>
-                  <li> color: #FFFFFF; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
-                  <li>} </li>
-                  <li>QPushButton:hover, QToolButton:hover, QCommandLinkButton:hover{ </li>
-                  <li> color: #3d3d3d; </li>
-                  <li>} </li>
-                  <li>QPushButton:pressed, QToolButton:pressed, QCommandLinkButton:pressed{ </li>
-                  <li> color: #aeaeae; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #ffffff, stop:0.5 #fbfdfd, stop:1 #ffffff); </li>
-                  <li>} </li>
-                  <li>QPushButton:disabled, QToolButton:disabled, QCommandLinkButton:disabled{ </li>
-                  <li> color: #616161; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #dce7eb, stop:0.5 #e0e8eb, stop:1 #dee7ec); </li>
-                  <li>} </li>
-                  <li>QLineEdit, QTextEdit, QPlainTextEdit, QSpinBox, QDoubleSpinBox, QTimeEdit, QDateEdit, QDateTimeEdit { </li>
-                  <li> border-width: 2px; </li>
-                  <li> border-radius: 8px; </li>
-                  <li> border-style: solid; </li>
-                  <li> border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> background-color: #f4f4f4; </li>
-                  <li> color: #3d3d3d; </li>
-                  <li>} </li>
-                  <li>QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QTimeEdit:focus, QDateEdit:focus, QDateTimeEdit:focus { </li>
-                  <li> border-width: 2px; </li>
-                  <li> border-radius: 8px; </li>
-                  <li> border-style: solid; </li>
-                  <li> border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #85b7e3, stop:1 #9ec1db); </li>
-                  <li> border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #85b7e3, stop:1 #9ec1db); </li>
-                  <li> border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #85b7e3, stop:1 #9ec1db); </li>
-                  <li> border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #85b7e3, stop:1 #9ec1db); </li>
-                  <li> background-color: #f4f4f4; </li>
-                  <li> color: #3d3d3d; </li>
-                  <li>} </li>
-                  <li>QLineEdit:disabled, QTextEdit:disabled, QPlainTextEdit:disabled, QSpinBox:disabled, QDoubleSpinBox:disabled, QTimeEdit:disabled, QDateEdit:disabled, QDateTimeEdit:disabled { </li>
-                  <li> color: #b9b9b9; </li>
-                  <li>} </li>
-                  <li>QSpinBox::up-button, QDoubleSpinBox::up-button, QTimeEdit::up-button, QDateEdit::up-button, QDateTimeEdit::up-button { </li>
-                  <li> subcontrol-origin: padding; </li>
-                  <li> subcontrol-position: top right; </li>
-                  <li> width: 15px; </li>
-                  <li> color: #272727; </li>
-                  <li> border-left-width: 1px; </li>
-                  <li> border-left-color: darkgray; </li>
-                  <li> border-left-style: solid; </li>
-                  <li> border-top-right-radius: 3px; </li>
-                  <li> padding: 3px; </li>
-                  <li>} </li>
-                  <li>QSpinBox::down-button, QDoubleSpinBox::down-button, QTimeEdit::down-button, QDateEdit::down-button, QDateTimeEdit::down-button { </li>
-                  <li> subcontrol-origin: padding; </li>
-                  <li> subcontrol-position: bottom right; </li>
-                  <li> width: 15px; </li>
-                  <li> color: #272727; </li>
-                  <li> border-left-width: 1px; </li>
-                  <li> border-left-color: darkgray; </li>
-                  <li> border-left-style: solid; </li>
-                  <li> border-bottom-right-radius: 3px; </li>
-                  <li> padding: 3px; </li>
-                  <li>} </li>
-                  <li>QSpinBox::up-button:pressed, QDoubleSpinBox::up-button:pressed, QTimeEdit::up-button:pressed, QDateEdit::up-button:pressed, QDateTimeEdit::up-button:pressed { </li>
-                  <li> color: #aeaeae; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #ffffff, stop:0.5 #fbfdfd, stop:1 #ffffff); </li>
-                  <li>} </li>
-                  <li>QSpinBox::down-button:pressed, QDoubleSpinBox::down-button:pressed, QTimeEdit::down-button:pressed, QDateEdit::down-button:pressed, QDateTimeEdit::down-button:pressed { </li>
-                  <li> color: #aeaeae; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #ffffff, stop:0.5 #fbfdfd, stop:1 #ffffff); </li>
-                  <li>} </li>
-                  <li>QSpinBox::up-button:hover, QDoubleSpinBox::up-button:hover, QTimeEdit::up-button:hover, QDateEdit::up-button:hover, QDateTimeEdit::up-button:hover { </li>
-                  <li> color: #FFFFFF; </li>
-                  <li> border-top-right-radius: 5px; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
-                  <li></li>
-                  <li>} </li>
-                  <li>QSpinBox::down-button:hover, QDoubleSpinBox::down-button:hover, QTimeEdit::down-button:hover, QDateEdit::down-button:hover, QDateTimeEdit::down-button:hover { </li>
-                  <li> color: #FFFFFF; </li>
-                  <li> border-bottom-right-radius: 5px; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
-                  <li>} </li>
-                  <li>QSpinBox::up-arrow, QDoubleSpinBox::up-arrow, QTimeEdit::up-arrow, QDateEdit::up-arrow, QDateTimeEdit::up-arrow { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/go-up-symbolic.symbolic.png); </li>
-                  <li>} </li>
-                  <li>QSpinBox::down-arrow, QDoubleSpinBox::down-arrow, QTimeEdit::down-arrow, QDateEdit::down-arrow, QDateTimeEdit::down-arrow { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/go-down-symbolic.symbolic.png); </li>
-                  <li>} </li>
-                  <li>QProgressBar { </li>
-                  <li> max-height: 8px; </li>
-                  <li> text-align: center; </li>
-                  <li> font: italic bold 11px; </li>
-                  <li> color: #3d3d3d; </li>
-                  <li> border: 1px solid transparent; </li>
-                  <li> border-radius:4px; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ddd5d5, stop:0.5 #dad3d3, stop:1 #ddd5d5); </li>
-                  <li>} </li>
-                  <li>QProgressBar::chunk { </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
-                  <li> border-radius: 4px; </li>
-                  <li>} </li>
-                  <li>QProgressBar:disabled { </li>
-                  <li> color: #616161; </li>
-                  <li>} </li>
-                  <li>QProgressBar::chunk:disabled { </li>
-                  <li> background-color: #aeaeae; </li>
-                  <li>} </li>
-                  <li>QSlider::groove { </li>
-                  <li> border: 1px solid #bbbbbb; </li>
-                  <li> background-color: #52595d; </li>
-                  <li> border-radius: 4px; </li>
-                  <li>} </li>
-                  <li>QSlider::groove:horizontal { </li>
-                  <li> height: 6px; </li>
-                  <li>} </li>
-                  <li>QSlider::groove:vertical { </li>
-                  <li> width: 6px; </li>
-                  <li>} </li>
-                  <li>QSlider::handle:horizontal { </li>
-                  <li> background: #ffffff; </li>
-                  <li> border-style: solid; </li>
-                  <li> border-width: 1px; </li>
-                  <li> border-color: rgb(207,207,207); </li>
-                  <li> width: 12px; </li>
-                  <li> margin: -5px 0; </li>
-                  <li> border-radius: 7px; </li>
-                  <li>} </li>
-                  <li>QSlider::handle:vertical { </li>
-                  <li> background: #ffffff; </li>
-                  <li> border-style: solid; </li>
-                  <li> border-width: 1px; </li>
-                  <li> border-color: rgb(207,207,207); </li>
-                  <li> height: 12px; </li>
-                  <li> margin: 0 -5px; </li>
-                  <li> border-radius: 7px; </li>
-                  <li>} </li>
-                  <li>QSlider::add-page, QSlider::sub-page { </li>
-                  <li> border: 1px transparent; </li>
-                  <li> background-color: #52595d; </li>
-                  <li> border-radius: 4px; </li>
-                  <li>} </li>
-                  <li>QSlider::add-page:horizontal { </li>
-                  <li> background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ddd5d5, stop:0.5 #dad3d3, stop:1 #ddd5d5); </li>
-                  <li>} </li>
-                  <li>QSlider::sub-page:horizontal { </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
-                  <li>} </li>
-                  <li>QSlider::add-page:vertical { </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
-                  <li>} </li>
-                  <li>QSlider::sub-page:vertical { </li>
-                  <li> background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #ddd5d5, stop:0.5 #dad3d3, stop:1 #ddd5d5); </li>
-                  <li>} </li>
-                  <li>QSlider::add-page:horizontal:disabled, QSlider::sub-page:horizontal:disabled, QSlider::add-page:vertical:disabled, QSlider::sub-page:vertical:disabled { </li>
-                  <li> background: #b9b9b9; </li>
-                  <li>} </li>
-                  <li>QComboBox, QFontComboBox { </li>
-                  <li> border-width: 2px; </li>
-                  <li> border-radius: 8px; </li>
-                  <li> border-style: solid; </li>
-                  <li> border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
-                  <li> background-color: #f4f4f4; </li>
-                  <li> color: #272727; </li>
-                  <li> padding-left: 5px; </li>
-                  <li>} </li>
-                  <li>QComboBox:editable, QComboBox:!editable, QComboBox::drop-down:editable, QComboBox:!editable:on, QComboBox::drop-down:editable:on { </li>
-                  <li> background: #ffffff; </li>
-                  <li>} </li>
-                  <li>QComboBox::drop-down { </li>
-                  <li> subcontrol-origin: padding; </li>
-                  <li> subcontrol-position: top right; </li>
-                  <li> width: 15px; </li>
-                  <li> color: #272727; </li>
-                  <li> border-left-width: 1px; </li>
-                  <li> border-left-color: darkgray; </li>
-                  <li> border-left-style: solid; </li>
-                  <li> border-top-right-radius: 3px; </li>
-                  <li> border-bottom-right-radius: 3px; </li>
-                  <li>} </li>
-                  <li>QComboBox::down-arrow { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/go-down-symbolic.symbolic.png); /*Adawaita icon thene*/ </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QComboBox::down-arrow:on { </li>
-                  <li> top: 1px; </li>
-                  <li> left: 1px; </li>
-                  <li>} </li>
-                  <li>QComboBox QAbstractItemView { </li>
-                  <li> border: 1px solid darkgray; </li>
-                  <li> border-radius: 8px; </li>
-                  <li> selection-background-color: #dadada; </li>
-                  <li> selection-color: #272727; </li>
-                  <li> color: #272727; </li>
-                  <li> background: white; </li>
-                  <li>} </li>
-                  <li>QLabel, QCheckBox, QRadioButton { </li>
-                  <li> color: #272727; </li>
-                  <li>} </li>
-                  <li>QCheckBox { </li>
-                  <li> padding: 2px; </li>
-                  <li>} </li>
-                  <li>QCheckBox:disabled, QRadioButton:disabled { </li>
-                  <li> color: #808086; </li>
-                  <li> padding: 2px; </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QCheckBox:hover { </li>
-                  <li> border-radius:4px; </li>
-                  <li> border-style:solid; </li>
-                  <li> padding-left: 1px; </li>
-                  <li> padding-right: 1px; </li>
-                  <li> padding-bottom: 1px; </li>
-                  <li> padding-top: 1px; </li>
-                  <li> border-width:1px; </li>
-                  <li> border-color: transparent; </li>
-                  <li>} </li>
-                  <li>QCheckBox::indicator:checked { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/object-select-symbolic.symbolic.png); </li>
-                  <li> height: 15px; </li>
-                  <li> width: 15px; </li>
-                  <li> border-style:solid; </li>
-                  <li> border-width: 1px; </li>
-                  <li> border-color: #48a5fd; </li>
-                  <li> color: #ffffff; </li>
-                  <li> border-radius: 3px; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #48a5fd, stop:0.5 #329cfb, stop:1 #48a5fd); </li>
-                  <li>} </li>
-                  <li>QCheckBox::indicator:unchecked { </li>
-                  <li></li>
-                  <li> height: 15px; </li>
-                  <li> width: 15px; </li>
-                  <li> border-style:solid; </li>
-                  <li> border-width: 1px; </li>
-                  <li> border-color: #48a5fd; </li>
-                  <li> border-radius: 3px; </li>
-                  <li> background-color: #fbfdfa; </li>
-                  <li>} </li>
-                  <li>QLCDNumber { </li>
-                  <li> color: #616161;; </li>
-                  <li>} </li>
-                  <li>QMenuBar { </li>
-                  <li> background-color: #ececec; </li>
-                  <li>} </li>
-                  <li>QMenuBar::item { </li>
-                  <li> color: #616161; </li>
-                  <li> spacing: 3px; </li>
-                  <li> padding: 1px 4px; </li>
-                  <li> background-color: #ececec; </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QMenuBar::item:selected { </li>
-                  <li> background-color: #dadada; </li>
-                  <li> color: #3d3d3d; </li>
-                  <li>} </li>
-                  <li>QMenu { </li>
-                  <li> background-color: #ececec; </li>
-                  <li>} </li>
-                  <li>QMenu::item:selected { </li>
-                  <li> background-color: #dadada; </li>
-                  <li> color: #3d3d3d; </li>
-                  <li>} </li>
-                  <li>QMenu::item { </li>
-                  <li> color: #616161;; </li>
-                  <li> background-color: #e0e0e0; </li>
-                  <li>} </li>
-                  <li>QTabWidget { </li>
-                  <li> color:rgb(0,0,0); </li>
-                  <li> background-color:#000000; </li>
-                  <li>} </li>
-                  <li>QTabWidget::pane { </li>
-                  <li> border-color: #050a0e; </li>
-                  <li> background-color: #e0e0e0; </li>
-                  <li> border-width: 1px; </li>
-                  <li> border-radius: 4px; </li>
-                  <li> position: absolute; </li>
-                  <li> top: -0.5em; </li>
-                  <li> padding-top: 0.5em; </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QTabWidget::tab-bar { </li>
-                  <li> alignment: center; </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QTabBar::tab { </li>
-                  <li> border-bottom: 1px solid #c0c0c0; </li>
-                  <li> padding: 3px; </li>
-                  <li> color: #272727; </li>
-                  <li> background-color: #fefefc; </li>
-                  <li> margin-left:0px; </li>
-                  <li>} </li>
-                  <li>QTabBar::tab:!last { </li>
-                  <li> border-right: 1px solid; </li>
-                  <li> border-right-color: #c0c0c0; </li>
-                  <li> border-bottom-color: #c0c0c0; </li>
-                  <li>} </li>
-                  <li>QTabBar::tab:first { </li>
-                  <li> border-top-left-radius: 4px; </li>
-                  <li> border-bottom-left-radius: 4px; </li>
-                  <li>} </li>
-                  <li>QTabBar::tab:last { </li>
-                  <li> border-top-right-radius: 4px; </li>
-                  <li> border-bottom-right-radius: 4px; </li>
-                  <li>} </li>
-                  <li>QTabBar::tab:selected, QTabBar::tab:last:selected, QTabBar::tab:hover { </li>
-                  <li> color: #FFFFFF; </li>
-                  <li> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
-                  <li>} </li>
-                  <li>QRadioButton::indicator { </li>
-                  <li> height: 14px; </li>
-                  <li> width: 14px; </li>
-                  <li> border-style:solid; </li>
-                  <li> border-radius:7px; </li>
-                  <li> border-width: 1px; </li>
-                  <li>} </li>
-                  <li>QRadioButton::indicator:checked { </li>
-                  <li> border-color: #48a5fd; </li>
-                  <li> background-color: qradialgradient(cx:0.5, cy:0.5, radius:0.4,fx:0.5, fy:0.5, stop:0 #ffffff, stop:0.5 #ffffff, stop:0.6 #48a5fd, stop:1 #48a5fd); </li>
-                  <li>} </li>
-                  <li>QRadioButton::indicator:!checked { </li>
-                  <li> border-color: #a9b7c6; </li>
-                  <li> background-color: #fbfdfa; </li>
-                  <li>} </li>
-                  <li>QStatusBar { </li>
-                  <li> color:#027f7f; </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QDial { </li>
-                  <li> background: #16a085; </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QToolBox { </li>
-                  <li> color: #a9b7c6; </li>
-                  <li> background-color: #222b2e; </li>
-                  <li>} </li>
-                  <li>QToolBox::tab { </li>
-                  <li> color: #a9b7c6; </li>
-                  <li> background-color:#222b2e; </li>
-                  <li>} </li>
-                  <li>QToolBox::tab:selected { </li>
-                  <li> color: #FFFFFF; </li>
-                  <li> background-color:#222b2e; </li>
-                  <li>} </li>
-                  <li>QScrollArea { </li>
-                  <li> color: #FFFFFF; </li>
-                  <li> background-color:#222b2e; </li>
-                  <li>} </li>
-                  <li></li>
-                  <li>QScrollBar:horizontal { </li>
-                  <li> max-height: 10px; </li>
-                  <li> border: 1px transparent grey; </li>
-                  <li> margin: 0px 20px 0px 20px; </li>
-                  <li> background: transparent; </li>
-                  <li>} </li>
-                  <li>QScrollBar:vertical { </li>
-                  <li> max-width: 10px; </li>
-                  <li> border: 1px transparent grey; </li>
-                  <li> margin: 20px 0px 20px 0px; </li>
-                  <li> background: transparent; </li>
-                  <li>} </li>
-                  <li>QScrollBar::handle:vertical, QScrollBar::handle:horizontal { </li>
-                  <li> background: #52595d; </li>
-                  <li> border-style: transparent; </li>
-                  <li> border-radius: 4px; </li>
-                  <li> min-height: 25px; </li>
-                  <li>} </li>
-                  <li>QScrollBar::handle:horizontal:hover, QScrollBar::handle:vertical:hover { </li>
-                  <li> background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
-                  <li>} </li>
-                  <li>QScrollBar::add-line, QScrollBar::sub-line { </li>
-                  <li> border: 2px transparent grey; </li>
-                  <li> border-radius: 4px; </li>
-                  <li> subcontrol-origin: margin; </li>
-                  <li> background: #b9b9b9; </li>
-                  <li>} </li>
-                  <li>QScrollBar::add-line:horizontal { </li>
-                  <li> width: 20px; </li>
-                  <li> subcontrol-position: right; </li>
-                  <li>} </li>
-                  <li>QScrollBar::add-line:vertical { </li>
-                  <li> height: 20px; </li>
-                  <li> subcontrol-position: bottom; </li>
-                  <li>} </li>
-                  <li>QScrollBar::sub-line:horizontal { </li>
-                  <li> width: 20px; </li>
-                  <li> subcontrol-position: left; </li>
-                  <li>} </li>
-                  <li>QScrollBar::sub-line:vertical { </li>
-                  <li> height: 20px; </li>
-                  <li> subcontrol-position: top; </li>
-                  <li>} </li>
-                  <li>QScrollBar::add-line:vertical:pressed, QScrollBar::add-line:horizontal:pressed, QScrollBar::sub-line:horizontal:pressed, QScrollBar::sub-line:vertical:pressed { </li>
-                  <li> background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
-                  <li>} </li>
-                  <li>QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal, QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { </li>
-                  <li> background: none; </li>
-                  <li>} </li>
-                  <li>QScrollBar::up-arrow:vertical { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/go-up-symbolic.symbolic.png); </li>
-                  <li>} </li>
-                  <li>QScrollBar::down-arrow:vertical { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/go-down-symbolic.symbolic.png); </li>
-                  <li>} </li>
-                  <li>QScrollBar::left-arrow:horizontal { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/go-previous-symbolic.symbolic.png); </li>
-                  <li>} </li>
-                  <li>QScrollBar::right-arrow:horizontal { </li>
-                  <li> image: url(/usr/share/icons/Adwaita/16x16/actions/go-next-symbolic.symbolic.png); </li>
-                  <li>}</li>
+                  <li style="padding-left: 10px;"> background-color:#ececec; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QPushButton, QToolButton, QCommandLinkButton{ </li>
+                  <li style="padding-left: 10px;"> padding: 0 5px 0 5px; </li>
+                  <li style="padding-left: 10px;"> border-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-top-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-right-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-bottom-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-left-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-width: 2px; </li>
+                  <li style="padding-left: 10px;"> border-radius: 8px; </li>
+                  <li style="padding-left: 10px;"> color: #616161; </li>
+                  <li style="padding-left: 10px;"> font-weight: bold; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #fbfdfd, stop:0.5 #ffffff, stop:1 #fbfdfd); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QPushButton::default, QToolButton::default, QCommandLinkButton::default{ </li>
+                  <li style="padding-left: 10px;"> border: 2px solid transparent; </li>
+                  <li style="padding-left: 10px;"> color: #FFFFFF; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QPushButton:hover, QToolButton:hover, QCommandLinkButton:hover{ </li>
+                  <li style="padding-left: 10px;"> color: #3d3d3d; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QPushButton:pressed, QToolButton:pressed, QCommandLinkButton:pressed{ </li>
+                  <li style="padding-left: 10px;"> color: #aeaeae; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #ffffff, stop:0.5 #fbfdfd, stop:1 #ffffff); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QPushButton:disabled, QToolButton:disabled, QCommandLinkButton:disabled{ </li>
+                  <li style="padding-left: 10px;"> color: #616161; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #dce7eb, stop:0.5 #e0e8eb, stop:1 #dee7ec); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QLineEdit, QTextEdit, QPlainTextEdit, QSpinBox, QDoubleSpinBox, QTimeEdit, QDateEdit, QDateTimeEdit { </li>
+                  <li style="padding-left: 10px;"> border-width: 2px; </li>
+                  <li style="padding-left: 10px;"> border-radius: 8px; </li>
+                  <li style="padding-left: 10px;"> border-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> background-color: #f4f4f4; </li>
+                  <li style="padding-left: 10px;"> color: #3d3d3d; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus, QTimeEdit:focus, QDateEdit:focus, QDateTimeEdit:focus { </li>
+                  <li style="padding-left: 10px;"> border-width: 2px; </li>
+                  <li style="padding-left: 10px;"> border-radius: 8px; </li>
+                  <li style="padding-left: 10px;"> border-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #85b7e3, stop:1 #9ec1db); </li>
+                  <li style="padding-left: 10px;"> border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #85b7e3, stop:1 #9ec1db); </li>
+                  <li style="padding-left: 10px;"> border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #85b7e3, stop:1 #9ec1db); </li>
+                  <li style="padding-left: 10px;"> border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #85b7e3, stop:1 #9ec1db); </li>
+                  <li style="padding-left: 10px;"> background-color: #f4f4f4; </li>
+                  <li style="padding-left: 10px;"> color: #3d3d3d; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QLineEdit:disabled, QTextEdit:disabled, QPlainTextEdit:disabled, QSpinBox:disabled, QDoubleSpinBox:disabled, QTimeEdit:disabled, QDateEdit:disabled, QDateTimeEdit:disabled { </li>
+                  <li style="padding-left: 10px;"> color: #b9b9b9; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::up-button, QDoubleSpinBox::up-button, QTimeEdit::up-button, QDateEdit::up-button, QDateTimeEdit::up-button { </li>
+                  <li style="padding-left: 10px;"> subcontrol-origin: padding; </li>
+                  <li style="padding-left: 10px;"> subcontrol-position: top right; </li>
+                  <li style="padding-left: 10px;"> width: 15px; </li>
+                  <li style="padding-left: 10px;"> color: #272727; </li>
+                  <li style="padding-left: 10px;"> border-left-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-left-color: darkgray; </li>
+                  <li style="padding-left: 10px;"> border-left-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-top-right-radius: 3px; </li>
+                  <li style="padding-left: 10px;"> padding: 3px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::down-button, QDoubleSpinBox::down-button, QTimeEdit::down-button, QDateEdit::down-button, QDateTimeEdit::down-button { </li>
+                  <li style="padding-left: 10px;"> subcontrol-origin: padding; </li>
+                  <li style="padding-left: 10px;"> subcontrol-position: bottom right; </li>
+                  <li style="padding-left: 10px;"> width: 15px; </li>
+                  <li style="padding-left: 10px;"> color: #272727; </li>
+                  <li style="padding-left: 10px;"> border-left-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-left-color: darkgray; </li>
+                  <li style="padding-left: 10px;"> border-left-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-bottom-right-radius: 3px; </li>
+                  <li style="padding-left: 10px;"> padding: 3px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::up-button:pressed, QDoubleSpinBox::up-button:pressed, QTimeEdit::up-button:pressed, QDateEdit::up-button:pressed, QDateTimeEdit::up-button:pressed { </li>
+                  <li style="padding-left: 10px;"> color: #aeaeae; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #ffffff, stop:0.5 #fbfdfd, stop:1 #ffffff); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::down-button:pressed, QDoubleSpinBox::down-button:pressed, QTimeEdit::down-button:pressed, QDateEdit::down-button:pressed, QDateTimeEdit::down-button:pressed { </li>
+                  <li style="padding-left: 10px;"> color: #aeaeae; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #ffffff, stop:0.5 #fbfdfd, stop:1 #ffffff); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::up-button:hover, QDoubleSpinBox::up-button:hover, QTimeEdit::up-button:hover, QDateEdit::up-button:hover, QDateTimeEdit::up-button:hover { </li>
+                  <li style="padding-left: 10px;"> color: #FFFFFF; </li>
+                  <li style="padding-left: 10px;"> border-top-right-radius: 5px; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::down-button:hover, QDoubleSpinBox::down-button:hover, QTimeEdit::down-button:hover, QDateEdit::down-button:hover, QDateTimeEdit::down-button:hover { </li>
+                  <li style="padding-left: 10px;"> color: #FFFFFF; </li>
+                  <li style="padding-left: 10px;"> border-bottom-right-radius: 5px; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::up-arrow, QDoubleSpinBox::up-arrow, QTimeEdit::up-arrow, QDateEdit::up-arrow, QDateTimeEdit::up-arrow { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/go-up-symbolic.symbolic.png); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSpinBox::down-arrow, QDoubleSpinBox::down-arrow, QTimeEdit::down-arrow, QDateEdit::down-arrow, QDateTimeEdit::down-arrow { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/go-down-symbolic.symbolic.png); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QProgressBar { </li>
+                  <li style="padding-left: 10px;"> max-height: 8px; </li>
+                  <li style="padding-left: 10px;"> text-align: center; </li>
+                  <li style="padding-left: 10px;"> font: italic bold 11px; </li>
+                  <li style="padding-left: 10px;"> color: #3d3d3d; </li>
+                  <li style="padding-left: 10px;"> border: 1px solid transparent; </li>
+                  <li style="padding-left: 10px;"> border-radius:4px; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ddd5d5, stop:0.5 #dad3d3, stop:1 #ddd5d5); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QProgressBar::chunk { </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
+                  <li style="padding-left: 10px;"> border-radius: 4px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QProgressBar:disabled { </li>
+                  <li style="padding-left: 10px;"> color: #616161; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QProgressBar::chunk:disabled { </li>
+                  <li style="padding-left: 10px;"> background-color: #aeaeae; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::groove { </li>
+                  <li style="padding-left: 10px;"> border: 1px solid #bbbbbb; </li>
+                  <li style="padding-left: 10px;"> background-color: #52595d; </li>
+                  <li style="padding-left: 10px;"> border-radius: 4px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::groove:horizontal { </li>
+                  <li style="padding-left: 10px;"> height: 6px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::groove:vertical { </li>
+                  <li style="padding-left: 10px;"> width: 6px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::handle:horizontal { </li>
+                  <li style="padding-left: 10px;"> background: #ffffff; </li>
+                  <li style="padding-left: 10px;"> border-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-color: rgb(207,207,207); </li>
+                  <li style="padding-left: 10px;"> width: 12px; </li>
+                  <li style="padding-left: 10px;"> margin: -5px 0; </li>
+                  <li style="padding-left: 10px;"> border-radius: 7px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::handle:vertical { </li>
+                  <li style="padding-left: 10px;"> background: #ffffff; </li>
+                  <li style="padding-left: 10px;"> border-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-color: rgb(207,207,207); </li>
+                  <li style="padding-left: 10px;"> height: 12px; </li>
+                  <li style="padding-left: 10px;"> margin: 0 -5px; </li>
+                  <li style="padding-left: 10px;"> border-radius: 7px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::add-page, QSlider::sub-page { </li>
+                  <li style="padding-left: 10px;"> border: 1px transparent; </li>
+                  <li style="padding-left: 10px;"> background-color: #52595d; </li>
+                  <li style="padding-left: 10px;"> border-radius: 4px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::add-page:horizontal { </li>
+                  <li style="padding-left: 10px;"> background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ddd5d5, stop:0.5 #dad3d3, stop:1 #ddd5d5); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::sub-page:horizontal { </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::add-page:vertical { </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::sub-page:vertical { </li>
+                  <li style="padding-left: 10px;"> background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #ddd5d5, stop:0.5 #dad3d3, stop:1 #ddd5d5); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QSlider::add-page:horizontal:disabled, QSlider::sub-page:horizontal:disabled, QSlider::add-page:vertical:disabled, QSlider::sub-page:vertical:disabled { </li>
+                  <li style="padding-left: 10px;"> background: #b9b9b9; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QComboBox, QFontComboBox { </li>
+                  <li style="padding-left: 10px;"> border-width: 2px; </li>
+                  <li style="padding-left: 10px;"> border-radius: 8px; </li>
+                  <li style="padding-left: 10px;"> border-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-right-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> border-left-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 #c1c9cf, stop:1 #d2d8dd); </li>
+                  <li style="padding-left: 10px;"> background-color: #f4f4f4; </li>
+                  <li style="padding-left: 10px;"> color: #272727; </li>
+                  <li style="padding-left: 10px;"> padding-left: 5px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QComboBox:editable, QComboBox:!editable, QComboBox::drop-down:editable, QComboBox:!editable:on, QComboBox::drop-down:editable:on { </li>
+                  <li style="padding-left: 10px;"> background: #ffffff; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QComboBox::drop-down { </li>
+                  <li style="padding-left: 10px;"> subcontrol-origin: padding; </li>
+                  <li style="padding-left: 10px;"> subcontrol-position: top right; </li>
+                  <li style="padding-left: 10px;"> width: 15px; </li>
+                  <li style="padding-left: 10px;"> color: #272727; </li>
+                  <li style="padding-left: 10px;"> border-left-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-left-color: darkgray; </li>
+                  <li style="padding-left: 10px;"> border-left-style: solid; </li>
+                  <li style="padding-left: 10px;"> border-top-right-radius: 3px; </li>
+                  <li style="padding-left: 10px;"> border-bottom-right-radius: 3px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QComboBox::down-arrow { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/go-down-symbolic.symbolic.png); /*Adawaita icon thene*/ </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QComboBox::down-arrow:on { </li>
+                  <li style="padding-left: 10px;"> top: 1px; </li>
+                  <li style="padding-left: 10px;"> left: 1px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QComboBox QAbstractItemView { </li>
+                  <li style="padding-left: 10px;"> border: 1px solid darkgray; </li>
+                  <li style="padding-left: 10px;"> border-radius: 8px; </li>
+                  <li style="padding-left: 10px;"> selection-background-color: #dadada; </li>
+                  <li style="padding-left: 10px;"> selection-color: #272727; </li>
+                  <li style="padding-left: 10px;"> color: #272727; </li>
+                  <li style="padding-left: 10px;"> background: white; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QLabel, QCheckBox, QRadioButton { </li>
+                  <li style="padding-left: 10px;"> color: #272727; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QCheckBox { </li>
+                  <li style="padding-left: 10px;"> padding: 2px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QCheckBox:disabled, QRadioButton:disabled { </li>
+                  <li style="padding-left: 10px;"> color: #808086; </li>
+                  <li style="padding-left: 10px;"> padding: 2px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QCheckBox:hover { </li>
+                  <li style="padding-left: 10px;"> border-radius:4px; </li>
+                  <li style="padding-left: 10px;"> border-style:solid; </li>
+                  <li style="padding-left: 10px;"> padding-left: 1px; </li>
+                  <li style="padding-left: 10px;"> padding-right: 1px; </li>
+                  <li style="padding-left: 10px;"> padding-bottom: 1px; </li>
+                  <li style="padding-left: 10px;"> padding-top: 1px; </li>
+                  <li style="padding-left: 10px;"> border-width:1px; </li>
+                  <li style="padding-left: 10px;"> border-color: transparent; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QCheckBox::indicator:checked { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/object-select-symbolic.symbolic.png); </li>
+                  <li style="padding-left: 10px;"> height: 15px; </li>
+                  <li style="padding-left: 10px;"> width: 15px; </li>
+                  <li style="padding-left: 10px;"> border-style:solid; </li>
+                  <li style="padding-left: 10px;"> border-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-color: #48a5fd; </li>
+                  <li style="padding-left: 10px;"> color: #ffffff; </li>
+                  <li style="padding-left: 10px;"> border-radius: 3px; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #48a5fd, stop:0.5 #329cfb, stop:1 #48a5fd); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QCheckBox::indicator:unchecked { </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;"> height: 15px; </li>
+                  <li style="padding-left: 10px;"> width: 15px; </li>
+                  <li style="padding-left: 10px;"> border-style:solid; </li>
+                  <li style="padding-left: 10px;"> border-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-color: #48a5fd; </li>
+                  <li style="padding-left: 10px;"> border-radius: 3px; </li>
+                  <li style="padding-left: 10px;"> background-color: #fbfdfa; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QLCDNumber { </li>
+                  <li style="padding-left: 10px;"> color: #616161;; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QMenuBar { </li>
+                  <li style="padding-left: 10px;"> background-color: #ececec; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QMenuBar::item { </li>
+                  <li style="padding-left: 10px;"> color: #616161; </li>
+                  <li style="padding-left: 10px;"> spacing: 3px; </li>
+                  <li style="padding-left: 10px;"> padding: 1px 4px; </li>
+                  <li style="padding-left: 10px;"> background-color: #ececec; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QMenuBar::item:selected { </li>
+                  <li style="padding-left: 10px;"> background-color: #dadada; </li>
+                  <li style="padding-left: 10px;"> color: #3d3d3d; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QMenu { </li>
+                  <li style="padding-left: 10px;"> background-color: #ececec; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QMenu::item:selected { </li>
+                  <li style="padding-left: 10px;"> background-color: #dadada; </li>
+                  <li style="padding-left: 10px;"> color: #3d3d3d; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QMenu::item { </li>
+                  <li style="padding-left: 10px;"> color: #616161;; </li>
+                  <li style="padding-left: 10px;"> background-color: #e0e0e0; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QTabWidget { </li>
+                  <li style="padding-left: 10px;"> color:rgb(0,0,0); </li>
+                  <li style="padding-left: 10px;"> background-color:#000000; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QTabWidget::pane { </li>
+                  <li style="padding-left: 10px;"> border-color: #050a0e; </li>
+                  <li style="padding-left: 10px;"> background-color: #e0e0e0; </li>
+                  <li style="padding-left: 10px;"> border-width: 1px; </li>
+                  <li style="padding-left: 10px;"> border-radius: 4px; </li>
+                  <li style="padding-left: 10px;"> position: absolute; </li>
+                  <li style="padding-left: 10px;"> top: -0.5em; </li>
+                  <li style="padding-left: 10px;"> padding-top: 0.5em; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QTabWidget::tab-bar { </li>
+                  <li style="padding-left: 10px;"> alignment: center; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QTabBar::tab { </li>
+                  <li style="padding-left: 10px;"> border-bottom: 1px solid #c0c0c0; </li>
+                  <li style="padding-left: 10px;"> padding: 3px; </li>
+                  <li style="padding-left: 10px;"> color: #272727; </li>
+                  <li style="padding-left: 10px;"> background-color: #fefefc; </li>
+                  <li style="padding-left: 10px;"> margin-left:0px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QTabBar::tab:!last { </li>
+                  <li style="padding-left: 10px;"> border-right: 1px solid; </li>
+                  <li style="padding-left: 10px;"> border-right-color: #c0c0c0; </li>
+                  <li style="padding-left: 10px;"> border-bottom-color: #c0c0c0; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QTabBar::tab:first { </li>
+                  <li style="padding-left: 10px;"> border-top-left-radius: 4px; </li>
+                  <li style="padding-left: 10px;"> border-bottom-left-radius: 4px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QTabBar::tab:last { </li>
+                  <li style="padding-left: 10px;"> border-top-right-radius: 4px; </li>
+                  <li style="padding-left: 10px;"> border-bottom-right-radius: 4px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QTabBar::tab:selected, QTabBar::tab:last:selected, QTabBar::tab:hover { </li>
+                  <li style="padding-left: 10px;"> color: #FFFFFF; </li>
+                  <li style="padding-left: 10px;"> background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 #84afe5, stop:1 #1168e4); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QRadioButton::indicator { </li>
+                  <li style="padding-left: 10px;"> height: 14px; </li>
+                  <li style="padding-left: 10px;"> width: 14px; </li>
+                  <li style="padding-left: 10px;"> border-style:solid; </li>
+                  <li style="padding-left: 10px;"> border-radius:7px; </li>
+                  <li style="padding-left: 10px;"> border-width: 1px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QRadioButton::indicator:checked { </li>
+                  <li style="padding-left: 10px;"> border-color: #48a5fd; </li>
+                  <li style="padding-left: 10px;"> background-color: qradialgradient(cx:0.5, cy:0.5, radius:0.4,fx:0.5, fy:0.5, stop:0 #ffffff, stop:0.5 #ffffff, stop:0.6 #48a5fd, stop:1 #48a5fd); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QRadioButton::indicator:!checked { </li>
+                  <li style="padding-left: 10px;"> border-color: #a9b7c6; </li>
+                  <li style="padding-left: 10px;"> background-color: #fbfdfa; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QStatusBar { </li>
+                  <li style="padding-left: 10px;"> color:#027f7f; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QDial { </li>
+                  <li style="padding-left: 10px;"> background: #16a085; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QToolBox { </li>
+                  <li style="padding-left: 10px;"> color: #a9b7c6; </li>
+                  <li style="padding-left: 10px;"> background-color: #222b2e; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QToolBox::tab { </li>
+                  <li style="padding-left: 10px;"> color: #a9b7c6; </li>
+                  <li style="padding-left: 10px;"> background-color:#222b2e; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QToolBox::tab:selected { </li>
+                  <li style="padding-left: 10px;"> color: #FFFFFF; </li>
+                  <li style="padding-left: 10px;"> background-color:#222b2e; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollArea { </li>
+                  <li style="padding-left: 10px;"> color: #FFFFFF; </li>
+                  <li style="padding-left: 10px;"> background-color:#222b2e; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;"></li>
+                  <li style="padding-left: 10px;">QScrollBar:horizontal { </li>
+                  <li style="padding-left: 10px;"> max-height: 10px; </li>
+                  <li style="padding-left: 10px;"> border: 1px transparent grey; </li>
+                  <li style="padding-left: 10px;"> margin: 0px 20px 0px 20px; </li>
+                  <li style="padding-left: 10px;"> background: transparent; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar:vertical { </li>
+                  <li style="padding-left: 10px;"> max-width: 10px; </li>
+                  <li style="padding-left: 10px;"> border: 1px transparent grey; </li>
+                  <li style="padding-left: 10px;"> margin: 20px 0px 20px 0px; </li>
+                  <li style="padding-left: 10px;"> background: transparent; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::handle:vertical, QScrollBar::handle:horizontal { </li>
+                  <li style="padding-left: 10px;"> background: #52595d; </li>
+                  <li style="padding-left: 10px;"> border-style: transparent; </li>
+                  <li style="padding-left: 10px;"> border-radius: 4px; </li>
+                  <li style="padding-left: 10px;"> min-height: 25px; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::handle:horizontal:hover, QScrollBar::handle:vertical:hover { </li>
+                  <li style="padding-left: 10px;"> background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::add-line, QScrollBar::sub-line { </li>
+                  <li style="padding-left: 10px;"> border: 2px transparent grey; </li>
+                  <li style="padding-left: 10px;"> border-radius: 4px; </li>
+                  <li style="padding-left: 10px;"> subcontrol-origin: margin; </li>
+                  <li style="padding-left: 10px;"> background: #b9b9b9; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::add-line:horizontal { </li>
+                  <li style="padding-left: 10px;"> width: 20px; </li>
+                  <li style="padding-left: 10px;"> subcontrol-position: right; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::add-line:vertical { </li>
+                  <li style="padding-left: 10px;"> height: 20px; </li>
+                  <li style="padding-left: 10px;"> subcontrol-position: bottom; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::sub-line:horizontal { </li>
+                  <li style="padding-left: 10px;"> width: 20px; </li>
+                  <li style="padding-left: 10px;"> subcontrol-position: left; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::sub-line:vertical { </li>
+                  <li style="padding-left: 10px;"> height: 20px; </li>
+                  <li style="padding-left: 10px;"> subcontrol-position: top; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::add-line:vertical:pressed, QScrollBar::add-line:horizontal:pressed, QScrollBar::sub-line:horizontal:pressed, QScrollBar::sub-line:vertical:pressed { </li>
+                  <li style="padding-left: 10px;"> background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #467dd1, stop:0.5 #3b88fc, stop:1 #467dd1); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal, QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical { </li>
+                  <li style="padding-left: 10px;"> background: none; </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::up-arrow:vertical { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/go-up-symbolic.symbolic.png); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::down-arrow:vertical { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/go-down-symbolic.symbolic.png); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::left-arrow:horizontal { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/go-previous-symbolic.symbolic.png); </li>
+                  <li style="padding-left: 10px;">} </li>
+                  <li style="padding-left: 10px;">QScrollBar::right-arrow:horizontal { </li>
+                  <li style="padding-left: 10px;"> image: url(/usr/share/icons/Adwaita/16x16/actions/go-next-symbolic.symbolic.png); </li>
+                  <li style="padding-left: 10px;">}</li>
                 </ol>
               </div>
             </div>
